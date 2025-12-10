@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yowesjp-vip.github.io/Education/sitemap.xml
