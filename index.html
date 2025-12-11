@@ -1,97 +1,340 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YOWESJP – Platform Layanan Futuristik</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOWESJP – Platform Toto 4D macau 5DMacau HK SDY pools HK SDY  lotto Parlay Bola dan Bisa Bet 10 perak -Slot tergacor dan terbaik di indonesia</title>
 
-    <meta name="description" content="YOWESJP adalah platform layanan modern dengan tampilan cyberpunk, informasi lengkap, dan akses cepat.">
-    <link rel="stylesheet" href="style-cyberpunk.css" />
-    <link rel="icon" href="assets/img/logo.png">
+<style>
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto:wght@300;400;600&display=swap');
+
+/* COLOR */
+:root {
+    --cyan: #00eaff;
+    --pink: #ff009d;
+    --purple: #6a00ff;
+    --dark: #050510;
+    --dark2: #0a0a15;
+    --card: rgba(15, 15, 35, 0.8);
+}
+
+/* BASE */
+body {
+    margin: 0;
+    background: var(--dark2);
+    color: #e1e1e1;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* SCANLINE BACKGROUND */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        rgba(255,255,255,0.03) 0px,
+        rgba(255,255,255,0.03) 2px,
+        transparent 4px,
+        transparent 6px
+    );
+    pointer-events: none;
+    animation: scan 7s linear infinite;
+}
+@keyframes scan {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid rgba(0,255,255,0.3);
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 13px 0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: var(--cyan);
+    animation: pulseLogo 2s infinite;
+    flex-shrink: 0;
+}
+.logo span { color: var(--pink); }
+
+@keyframes pulseLogo {
+    0%,100% { text-shadow: 0 0 10px var(--cyan); }
+    50% { text-shadow: 0 0 25px var(--pink); }
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: .2s;
+}
+nav a:hover {
+    color: var(--pink);
+    text-shadow: 0 0 6px var(--pink);
+}
+
+/* BUTTON */
+.join-btn {
+    border: 1px solid var(--cyan);
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #130026, #060010);
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero h1 span {
+    color: var(--pink);
+    animation: glitch 1.8s infinite;
+    text-shadow: 0 0 20px var(--pink);
+}
+
+/* GLITCH TEXT */
+@keyframes glitch {
+    0% { text-shadow: 2px 0 red, -2px 0 cyan; }
+    25% { text-shadow: -4px 0 cyan, 2px 0 purple; }
+    50% { text-shadow: 3px 0 pink, -3px 0 cyan; }
+    75% { text-shadow: -2px 0 purple, 3px 0 pink; }
+    100% { text-shadow: 2px 0 cyan, -2px 0 red; }
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 26px;
+    color: white;
+    background: var(--pink);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 18px var(--pink);
+    animation: pulseBtn 2s infinite;
+}
+
+@keyframes pulseBtn {
+    0%,100% { box-shadow: 0 0 15px var(--pink); }
+    50% { box-shadow: 0 0 30px var(--pink); }
+}
+
+/* PROMO SECTION */
+.promo-section {
+    padding: 55px 20px;
+    background: var(--dark);
+}
+
+.glow-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--cyan);
+    text-shadow: 0 0 15px var(--cyan);
+    animation: neonTitle 3s infinite;
+}
+
+@keyframes neonTitle {
+    0%,100% { opacity: 1; }
+    50% { opacity: .65; }
+}
+
+/* PROMO CARD GRID */
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.promo-card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgba(0,255,255,0.3);
+    box-shadow: 0 0 12px rgba(0,255,255,0.15);
+    position: relative;
+    overflow: hidden;
+    transition: .25s;
+}
+
+.promo-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 22px var(--cyan);
+}
+
+/* Animated border */
+.promo-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, var(--cyan), var(--pink)) 1;
+    animation: borderAnim 4s linear infinite;
+}
+
+@keyframes borderAnim {
+    0% { border-image-source: linear-gradient(90deg, var(--cyan), var(--pink)); }
+    50% { border-image-source: linear-gradient(90deg, var(--pink), var(--cyan)); }
+    100% { border-image-source: linear-gradient(90deg, var(--cyan), var(--pink)); }
+}
+
+/* CONTENT SECTION */
+.section {
+    padding: 60px 20px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: var(--card);
+    padding: 22px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,0,157,0.35);
+    box-shadow: 0 0 10px rgba(255,0,157,0.2);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px var(--pink);
+}
+
+/* FOOTER */
+footer {
+    background: #020208;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid rgba(0,255,255,0.3);
+}
+
+/* -------------------------------------------------------------------
+   ░░ MOBILE RESPONSIVE FIXES (PENTING) ░░
+------------------------------------------------------------------- */
+
+/* Untuk HP layar kecil (≤ 480px) */
+@media (max-width: 480px) {
+    .logo { font-size: 22px; }
+    nav { display: none; } /* Menu disembunyikan jika layar kecil (aman dan rapi) */
+    .hero h1 { font-size: 32px; }
+    .cta-btn { font-size: 15px; padding: 10px 22px; }
+    .promo-card h3 { font-size: 18px; }
+    .promo-card p { font-size: 14px; }
+}
+
+/* Untuk tablet (≤ 768px) */
+@media (max-width: 768px) {
+    nav { gap: 10px; }
+    .hero h1 { font-size: 36px; }
+    .grid-3, .promo-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
 </head>
 
 <body>
 
-<header class="cyber-header">
+<header>
     <div class="container">
         <div class="logo">YOWES<span>JP</span></div>
         <nav>
-            <a href="index.html">Beranda</a>
-            <a href="about.html">Tentang</a>
-            <a href="features.html">Fitur</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contact.html">Kontak</a>
-            <a href="https://tahu.yowesjp.io/register?referral=yowesvip" class="join-btn">Daftar / Login</a>
+            <a href="#">Beranda</a>
+            <a href="#">Tentang</a>
+            <a href="#">Fitur</a>
+            <a href="#">FAQ</a>
+            <a href="#">Kontak</a>
+            <a href="#" class="join-btn">Daftar / Login</a>
         </nav>
     </div>
 </header>
 
 <section class="hero">
-    <div class="container">
-        <h1>Selamat Datang di <span>YOWESJP</span></h1>
-        <p>Platform modern dengan nuansa <b>Cyberpunk Futuristik</b> yang menyediakan layanan digital cepat, aman, dan informatif.</p>
-
-        <a href="https://tahu.yowesjp.io/register?referral=yowesvip" class="cta-btn">Link Alternatif Resmi</a>
-    </div>
+    <h1>Selamat Datang di <span>YOWESJP</span></h1>
+    <p>Platform digital dengan bet 10 perak pertama di indonesia.</p>
+    <a href="#" class="cta-btn">Link Alternatif Resmi</a>
 </section>
 
-<!-- PROMO CYBERPUNK SECTION -->
 <section class="promo-section">
-    <div class="container">
-        <h2 class="glow-title">🔥 Promo Eksklusif Hari Ini 🔥</h2>
+    <h2 class="glow-title">🔥 Promo Utama Hari Ini 🔥</h2>
 
-        <div class="promo-grid">
+    <div class="promo-grid">
+        <div class="promo-card">
+            <h3>💎 KLAIM SALDO GRATIS 15K</h3>
+            <p>Hanya dengan Download APK</p>
+        </div>
 
-            <div class="promo-card">
-                <h3>💎 KLAIM SALDO GRATIS 15K</h3>
-                <p><b>Hanya dengan Download APK</b></p>
-            </div>
+        <div class="promo-card">
+            <h3>🎁 BONUS DEPOSIT PERTAMA 100%</h3>
+            <p>Bonus terbesar untuk member baru.</p>
+        </div>
 
-            <div class="promo-card">
-                <h3>🎁 BONUS DEPOSIT PERTAMA 100%</h3>
-                <p>Dapatkan bonus terbesar untuk pengguna baru.</p>
-            </div>
+        <div class="promo-card">
+            <h3>⚡ BET 10 PERAK</h3>
+            <p>Platform pertama terbaik di Indonesia.</p>
+        </div>
 
-            <div class="promo-card">
-                <h3>⚡ BET 10 PERAK</h3>
-                <p><b>Platform Pertama di Indonesia</b> yang menyediakan minimal bet super ringan.</p>
-            </div>
-
-            <div class="promo-card">
-                <h3>🔓 BEBAS INVEST & BBFS 9 DIGIT</h3>
-                <p>Tanpa batasan, tanpa syarat sulit.</p>
-            </div>
-
+        <div class="promo-card">
+            <h3>🔓 BEBAS INVEST & BBFS 9 DIGIT</h3>
+            <p>Bebas tanpa batasan.</p>
         </div>
     </div>
 </section>
 
 <section class="section">
-    <div class="container">
-        <h2>Apa itu YOWESJP?</h2>
-        <p>Platform digital futuristik dengan performa cepat, keamanan kuat, dan fitur informatif yang dirancang untuk seluruh pengguna Indonesia.</p>
+    <h2 class="glow-title">Tentang YOWESJP</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+        YOWESJP adalah platform web toto slot dan taruhan bola digital modern dengan kecepatan tinggi, keamanan kuat,
+        dan fairplay.
+    </p>
 
-        <div class="grid-3">
-            <div class="card">
-                <h3>⚡ Kecepatan Cyber</h3>
-                <p>Akses super cepat dengan teknologi ringan.</p>
-            </div>
-
-            <div class="card">
-                <h3>🔒 Keamanan Tingkat Tinggi</h3>
-                <p>Proteksi data dengan sistem enkripsi modern.</p>
-            </div>
-
-            <div class="card">
-                <h3>📚 Edukasi Terupdate</h3>
-                <p>Panduan lengkap untuk pengguna pemula & pro.</p>
-            </div>
-        </div>
+    <div class="grid-3">
+        <div class="card"><h3>⚡ Super Cepat</h3><p>Akses ringan & anti lag.</p></div>
+        <div class="card"><h3>🔒 Aman</h3><p>Sistem terenkripsi profesional.</p></div>
+        <div class="card"><h3>📚 Edukasi Lengkap</h3><p>Panduan untuk pemula & pro.</p></div>
     </div>
 </section>
 
-<footer class="footer">
-    <p>© 2025 YOWESJP — All Rights Reserved.</p>
+<footer>
+    © 2025 YOWESJP — All Rights Reserved.
 </footer>
 
 </body>
