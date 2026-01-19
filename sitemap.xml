@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -11,21 +10,31 @@
 
   <url>
     <loc>https://yowesjp-vip.github.io/Education/about.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yowesjp-vip.github.io/Education/features.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yowesjp-vip.github.io/Education/faq.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://yowesjp-vip.github.io/Education/blog/platform-digital.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://yowesjp-vip.github.io/Education/contact.html</loc>
+    <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
