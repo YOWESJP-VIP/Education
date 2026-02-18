@@ -2,38 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/</loc>
-    <lastmod>2026-01-19</lastmod>
+    <loc>https://yoweswd.pages.dev/</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/about.html</loc>
+    <loc>https://yoweswd.pages.dev/about.html</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/features.html</loc>
+    <loc>https://yoweswd.pages.dev/features.html</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/faq.html</loc>
+    <loc>https://yoweswd.pages.dev/faq.html</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/blog/platform-digital.html</loc>
+    <loc>https://yoweswd.pages.dev/blog/platform-digital.html</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://yowesjp-vip.github.io/Education/contact.html</loc>
+    <loc>https://yoweswd.pages.dev/contact.html</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
